@@ -1,0 +1,10 @@
+ubuntu@ip-172-31-47-8:~/Shan/projects$ crontab -e
+58 14 * * * /home/ubuntu/Shan/projects/project33.sh>> /home/ubuntu/Shan/projects/display.txt
+cat display.txt
+ubuntu@ip-172-31-47-8:~/Shan/projects$ cat display.txt
+Critical usage on /dev/loop0: 100%
+Critical usage on /dev/loop2: 100%
+Critical usage on /dev/loop3: 100%
+Critical usage on /dev/loop1: 100%
+Critical usage on /dev/loop4: 100%
+Critical usage on /dev/loop5: 100%
